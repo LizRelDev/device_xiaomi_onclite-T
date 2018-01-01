@@ -11,6 +11,10 @@ type gf_data_file, file_type, data_file_type, core_data_file_type;
 # FPC FP
 type sysfs_fpc, sysfs_type, fs_type;
 
+# Power
+type vendor_sysfs_kgsl, fs_type, sysfs_type;
+type sysfs_msm_subsys, sysfs_type, fs_type;
+
 # Input devices
 type idc_file, file_type, vendor_file_type;
 type keylayout_file, file_type, vendor_file_type;

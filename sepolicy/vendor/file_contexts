@@ -23,6 +23,9 @@
 # IR
 /dev/spidev6\.1                  u:object_r:lirc_device:s0
 
+# Hals
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power@1\.2-service\.onclite-libperfmgr	u:object_r:hal_power_default_exec:s0
+
 # Rild
 /(vendor|system/vendor)/radio/qcril_database/qcril.db			u:object_r:rild_file:s0
 
