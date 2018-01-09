@@ -3,3 +3,6 @@ system_public_prop(vendor_fp_prop)
 
 # Dirac
 vendor_public_prop(dirac_prop);
+
+# Power HAL
+type power_prop, property_type;
