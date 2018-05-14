@@ -14,6 +14,7 @@ type sysfs_fpc, sysfs_type, fs_type;
 # Power
 type vendor_sysfs_kgsl, fs_type, sysfs_type;
 type sysfs_msm_subsys, sysfs_type, fs_type;
+type debugfs_sched_features, debugfs_type, fs_type;
 
 # Input devices
 type idc_file, file_type, vendor_file_type;
