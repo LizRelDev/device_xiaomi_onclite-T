@@ -13,3 +13,4 @@ genfscon sysfs /kernel/sound_control/earpiece_gain                              
 
 # Power HAL
 genfscon debugfs /sched_features                      u:object_r:debugfs_sched_features:s0
+genfscon proc /sys/kernel/sched_boost                     u:object_r:proc_sysctl_schedboost:s0

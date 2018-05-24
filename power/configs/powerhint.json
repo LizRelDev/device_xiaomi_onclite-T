@@ -143,6 +143,15 @@
         "NO_EAS_USE_NEED_IDLE"
       ],
       "ResetOnInit": true
+    },
+    {
+      "Name": "SchedBoost",
+      "Path": "/proc/sys/kernel/sched_boost",
+      "Values": [
+        "1",
+        "0"
+      ],
+      "ResetOnInit": true
     }
   ],
   "Actions": [
@@ -289,6 +298,12 @@
       "Node": "CPUBWMinFreq",
       "ValueIndex": 1,
       "Duration": 0
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "SchedBoost",
+      "Duration": 5000,
+      "Value": "1"
     },
     {
       "PowerHint": "LAUNCH",
