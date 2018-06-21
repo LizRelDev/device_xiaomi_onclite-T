@@ -404,8 +404,20 @@
     {
       "PowerHint": "AUDIO_LOW_LATENCY",
       "Node": "PMQoSCpuDmaLatency",
-      "ValueIndex": 0,
-      "Duration": 0
+      "Duration": 0,
+      "Value": "44"
+    },
+    {
+      "PowerHint": "EXPENSIVE_RENDERING",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "520000000"
+    },
+    {
+      "PowerHint": "EXPENSIVE_RENDERING",
+      "Node": "GPUMaxFreq",
+      "Duration": 0,
+      "Value": "710000000"
     }
   ]
 }
