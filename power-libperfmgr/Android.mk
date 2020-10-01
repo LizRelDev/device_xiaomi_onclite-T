@@ -41,6 +41,11 @@ LOCAL_CFLAGS := -Wno-unused-parameter -Wno-unused-variable
 
 LOCAL_MODULE := android.hardware.power-service.onclite-libperfmgr
 LOCAL_INIT_RC := android.hardware.power-service.onclite-libperfmgr.rc
+
+ifneq ($(TARGET_POWERHAL_MODE_EXT),)
+    LOCAL_CFLAGS += -DMODE_EXT
+    LOCAL_SRC_FILES += ../../../../$(TARGET_POWERHAL_MODE_EXT)
+endif
 LOCAL_MODULE_TAGS := optional
 LOCAL_VENDOR_MODULE := true
 LOCAL_VINTF_FRAGMENTS := android.hardware.power-service.onclite.xml
