@@ -79,6 +79,9 @@ vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
+# Audio FX modules - from ginkgo MIUI V12.0.1.0.RCOCNXM
+vendor/lib/soundfx/libmisoundfx.so|b96beb7c9aaded46a15bdbe8079b84d2beec9911
+
 # Bluetooth - from daisy-user-10-QKQ1.191002.002-V11.0.18.0.QDLMIXM-release-keys
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|378ad8ce95651b4bf81ad73aaffbdf0666c55432
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
@@ -244,6 +247,12 @@ vendor/lib64/libbase64.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2vop.so
 vendor/lib64/libvideoutils.so
+
+# Dirac - from jasmine V11.0.23.0.QDIMIXM
+vendor/etc/diracmobile.config|88fa19095df9e256f0af510df266f749bf60e258
+vendor/etc/diracvdd.bin|f9b07ace60490649c44411504909c7bf8bc73d59
+vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
+vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
 
 # Camera-actuators
 vendor/lib/libactuator_dw9714.so
