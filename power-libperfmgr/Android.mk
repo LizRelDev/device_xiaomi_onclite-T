@@ -49,6 +49,11 @@ ifneq ($(TARGET_POWERHAL_MODE_EXT),)
     LOCAL_CFLAGS += -DMODE_EXT
     LOCAL_SRC_FILES += ../../../../$(TARGET_POWERHAL_MODE_EXT)
 endif
+
+ifneq ($(TARGET_TAP_TO_WAKE_NODE),)
+    LOCAL_CFLAGS += -DTAP_TO_WAKE_NODE=\"$(TARGET_TAP_TO_WAKE_NODE)\"
+endif
+
 LOCAL_MODULE_TAGS := optional
 LOCAL_VENDOR_MODULE := true
 LOCAL_VINTF_FRAGMENTS := android.hardware.power-service.onclite.xml
