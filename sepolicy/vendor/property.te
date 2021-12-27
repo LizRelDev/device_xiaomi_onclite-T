@@ -1,2 +1,4 @@
 # Fingerprint
 system_public_prop(vendor_fp_prop)
+type fp_prop, property_type;
+type hal_sensor_default, property_type;
