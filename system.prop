@@ -87,3 +87,11 @@ persist.debug.wfd.enable=1
 
 # Zygote preforking
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Battery Saving
+ro.ril.disable.power.collapse=1
+pm.sleep_mode=1
+
+# System
+persist.sys.binary_xml=false
+
