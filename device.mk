@@ -126,6 +126,9 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     libgui_vendor \
 
+PRODUCT_PACKAGES += \
+    GcamGoMod
+
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapminfree=4m \
