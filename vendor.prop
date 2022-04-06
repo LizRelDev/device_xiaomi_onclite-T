@@ -25,7 +25,7 @@ vendor.qcom.bluetooth.soc=pronto
 
 # Chipset
 ro.soc.manufacturer=Qualcomm
-ro.soc.model=SDM450
+ro.soc.model=SDM632
 
 # Display post-processing
 ro.vendor.display.cabl=0
