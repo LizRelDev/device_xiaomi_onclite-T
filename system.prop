@@ -93,6 +93,7 @@ sys.fflag.override.settings_seamless_transfer=true
 
 # WFD
 persist.debug.wfd.enable=1
+media.wfd.max_resolution=8
 
 # Zygote preforking
 persist.device_config.runtime_native.usap_pool_enabled=true
