@@ -48,6 +48,11 @@ vendor.display.disable_skip_validate=1
 # Keyguard
 persist.wm.enable_remote_keyguard_animation=0
 
+# Iorap
+iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
+vendor.iop.enable_prefetch_ofr=1
+
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
 vendor.mm.enable.qcom_parser=1048575
