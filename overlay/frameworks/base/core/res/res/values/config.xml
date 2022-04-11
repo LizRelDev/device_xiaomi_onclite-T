@@ -381,4 +381,7 @@
          devices will be able to vary their amplitude but do not possess enough dynamic range to
          have distinct intensity levels -->
     <bool name="config_vibration_supports_multiple_intensities">true</bool>
+
+    <!-- The max scale for the wallpaper when it's zoomed in -->
+    <item name="config_wallpaperMaxScale" format="float" type="dimen">1.00</item>
 </resources>
