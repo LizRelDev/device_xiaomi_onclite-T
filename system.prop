@@ -88,6 +88,9 @@ persist.radio.add_power_save=1
 persist.service.lgospd.enable=0
 persist.service.pcsync.enable=0
 
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
+
 # WFD
 persist.debug.wfd.enable=1
 
