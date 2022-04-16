@@ -136,20 +136,11 @@
       "HoldFd": true
     },
     {
-      "Name": "SchedFeatures",
-      "Path": "/sys/kernel/debug/sched_features",
+      "Name": "KernelBatterySaver",
+      "Path": "/sys/module/battery_saver/parameters/enabled",
       "Values": [
-        "EAS_USE_NEED_IDLE",
-        "NO_EAS_USE_NEED_IDLE"
-      ],
-      "ResetOnInit": true
-    },
-    {
-      "Name": "SchedBoost",
-      "Path": "/proc/sys/kernel/sched_boost",
-      "Values": [
-        "1",
-        "0"
+        "Y",
+        "N"
       ],
       "ResetOnInit": true
     },
@@ -498,13 +489,13 @@
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUMinFreq",
       "Duration": 0,
-      "Value": "520000000"
+      "Value": "400000000"
     },
     {
-      "PowerHint": "EXPENSIVE_RENDERING",
-      "Node": "GPUMaxFreq",
+      "PowerHint": "LOW_POWER",
+      "Node": "KernelBatterySaver",
       "Duration": 0,
-      "Value": "710000000"
+      "Value": "Y"
     }
   ]
 }
