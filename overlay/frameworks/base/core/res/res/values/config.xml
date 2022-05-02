@@ -363,4 +363,7 @@
         <item>2</item> <!-- COLOR_MODE_SATURATED -->
         <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
     </integer-array>
+
+    <!-- Whether device supports gaming mode profiles -->
+    <bool name="config_gamingmode_performance">true</bool>
 </resources>
