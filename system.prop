@@ -61,6 +61,9 @@ vendor.vidc.dec.downscalar_width=1920
 vendor.vidc.enc.disable_bframes=1
 vendor.video.disable.ubwc=1
 
+# Perfetto
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
