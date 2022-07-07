@@ -39,6 +39,7 @@ ro.config.dha_tunnable=1
 # Graphics
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=0
+debug.sdm.support_writeback=0
 debug.sf.hw=0
 persist.demo.hdmirotationlock=false
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
