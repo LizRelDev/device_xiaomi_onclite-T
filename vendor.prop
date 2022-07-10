@@ -1,7 +1,7 @@
 # Audio
 persist.vendor.audio.fluence.speaker=true
 persist.vendor.audio.fluence.voicecall=true
-persist.vendor.audio.fluence.voicerec=false
+persist.vendor.audio.fluence.voicerec=true
 ro.vendor.audio.sdk.fluencetype=fluence
 vendor.audio.offload.buffer.size.kb=64
 vendor.audio.offload.gapless.enabled=true
