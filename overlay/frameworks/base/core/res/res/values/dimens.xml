@@ -20,6 +20,9 @@
         orientation. If zero, the value of rounded_corner_radius is used. -->
     <dimen name="rounded_corner_radius_top">68.0px</dimen>
 
+    <!-- the padding of the rounded corner -->
+    <dimen name="rounded_corner_content_padding">8dp</dimen>
+
     <!-- Radius of the software rounded corners at the bottom of the display in its natural
         orientation. If zero, the value of rounded_corner_radius is used. -->
     <dimen name="rounded_corner_radius_bottom">51.0px</dimen>
