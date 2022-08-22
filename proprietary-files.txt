@@ -245,10 +245,12 @@ vendor/lib/libvideoutils.so
 vendor/lib/libvidhance.so
 vendor/lib/libvidhance_gyro.so
 vendor/lib/mibokeh_632_opencl.bin
+vendor/lib/libstdc++.so
 vendor/lib64/libbase64.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2vop.so
 vendor/lib64/libvideoutils.so
+vendor/lib64/libstdc++.so
 
 # Dirac - from jasmine V11.0.23.0.QDIMIXM
 vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
