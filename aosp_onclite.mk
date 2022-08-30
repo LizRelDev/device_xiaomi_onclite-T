@@ -17,6 +17,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Some necessary flags
 TARGET_BOOT_ANIMATION_RES := 720
+TARGET_SUPPORTS_FACE_UNLOCK : true
 TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier. This must come after all inclusions.
