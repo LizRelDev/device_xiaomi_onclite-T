@@ -109,3 +109,6 @@ pm.sleep_mode=1
 # System
 persist.sys.binary_xml=false
 
+# Battery Saving
+ro.ril.disable.power.collapse=1
+pm.sleep_mode=1
