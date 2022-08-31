@@ -46,5 +46,8 @@ vendor.video.disable.ubwc=1
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
+# set cutoff voltage to 3400mV
+ro.cutoff_voltage_mv=3400
+
 # WFD
 persist.debug.wfd.enable=1
