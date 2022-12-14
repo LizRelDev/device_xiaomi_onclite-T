@@ -12,12 +12,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from onclite device
 $(call inherit-product, device/xiaomi/onclite/device.mk)
 
-# Inherit some common ProjectBlaze stuff.
-$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
+# Inherit some common AOSP stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Blaze Official Stuff
-BLAZE_BUILD_TYPE := OFFICIAL
-BLAZE_MAINTAINER := Aditya-&-Abhinav
+# AOSP Developer Stuff
+AOSP_BUILD_TYPE := UN/OFFICIAL
+AOSP_MAINTAINER := LizDelDev
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USE_PIXEL_CHARGER := true
 TARGET_SUPPORTS_BLUR := true
@@ -26,10 +26,10 @@ TARGET_SUPPORTS_BLUR := true
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := blaze_onclite
+PRODUCT_NAME := aosp_onclite
 PRODUCT_DEVICE := onclite
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Y3
+PRODUCT_MODEL := Redmi 7
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_SYSTEM_NAME := onc
 
